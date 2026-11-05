@@ -27,6 +27,18 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+@media (max-width: 768px) {
+    .pperfil, .lista {
+        flex-direction: column;
+        align-items: center;
+    }
+    .minhafoto {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+}
+
 .pperfil {
     display: flex;
     align-items: center;
